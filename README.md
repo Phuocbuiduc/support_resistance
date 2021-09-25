@@ -14,7 +14,8 @@ Small package that helps to find support and resistance levels and plot them on 
 (For full dependency list check requirements.txt)
 
 ## Installation
-`python setup.py install`
+`python setup.py install` `python setup.py install --user || exit 1`
+
 
 ### How it works?
 Algorithm uses AgglomerativeClustering to find levels from pivot points. There are 2 different implementations

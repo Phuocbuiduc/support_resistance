@@ -3,7 +3,7 @@ import pandas as pd
 from pricelevels.cluster import ZigZagClusterLevels
 from pricelevels.visualization.levels_with_zigzag import plot_with_pivots
 
-df = pd.read_csv('sample.txt')
+df = pd.read_csv('list.txt')
 
 zig_zag_percent = 0.8
 
